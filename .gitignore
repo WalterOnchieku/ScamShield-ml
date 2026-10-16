@@ -1,0 +1,40 @@
+
+cat > .gitignore <<'EOF'
+# Python environments
+.venv/
+venv/
+env/
+
+# Python cache and build files
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Raw and processed datasets
+data/
+
+# Trained model artifacts
+models/
+*.joblib
+*.pkl
+
+# Generated reports and plots
+reports/*.txt
+reports/*.csv
+reports/*.png
+reports/*.pdf
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+EOF
