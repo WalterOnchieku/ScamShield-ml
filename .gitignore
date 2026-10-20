@@ -1,5 +1,4 @@
 
-cat > .gitignore <<'EOF'
 # Python environments
 .venv/
 venv/
@@ -37,4 +36,4 @@ reports/*.pdf
 .vscode/
 .idea/
 .DS_Store
-EOF
+
